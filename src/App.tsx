@@ -19,7 +19,24 @@ function App() {
           Implement it here
         </div>
         <div className="flex flex-col">
-          {/* Place your code here */}
+          <div>
+            <h1 className="text-2xl font-semibold">
+              Create an account
+            </h1>
+            <p className="text-slate-400">
+              Enter your email below to create your account
+            </p>
+            <div className="flex gap-8">
+              <button className="flex-1 p-2 rounded-lg text-center border border-slate-400">
+                Github
+              </button>
+              <button className="flex-1 p-2 rounded-lg text-center border border-slate-400">
+                Google
+              </button>
+
+            </div>
+
+          </div>
           
         </div>
       </div>
